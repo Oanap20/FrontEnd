@@ -1,0 +1,350 @@
+/* general */
+body {
+    margin: 0 auto;
+}
+
+p {
+    margin: 0;
+}
+
+.wrapper {
+    width: 70%;
+    height: auto;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #D8D8D8;
+}
+
+.header, .clever, .start, .features, .footer {
+    background-color: #fff;
+    color: #465969;
+}
+
+/* header */
+
+.header {
+    height: auto;
+    padding: 2% 2% 2% 3%;
+    border-bottom: 1px solid #D8D8D8;
+}
+
+.logo-image, .meetprep, .login {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo-image {
+    width: 30.9px;
+    height: 38px;
+    background-color: #32ab90;
+    float: left;
+}
+
+.meet span {
+    font-weight: 700;
+    letter-spacing: -0.11px;
+}
+
+.meet-prep {
+    font-family: Rubik, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.11px;
+    color: #445767;
+    float: left;
+}
+
+.login {
+    font-family: Cabin, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    color: #465969;
+    float: right;
+    margin: 0.4% 4% 0 0;
+
+}
+
+.login a {
+    text-decoration: none;
+    font-family: Cabin, sans-serif;
+    color: #465969;
+}
+
+/* First Section - The Clever Way to Attend Events */
+
+.clever {
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 4%;
+}
+
+.clever-first {
+    padding-top: 3%;
+}
+
+.clever-first, .clever-second {
+    flex-direction: row;
+    width: 30%;
+}
+
+h1 {
+    margin: 0;
+}
+
+.the-clever-way {
+    width: auto;
+    font-family: Rubik, sans-serif;
+    font-size: 2.5em;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.07;
+    letter-spacing: normal;
+    text-align: right;
+    color: #70c22d;
+}
+
+.attend-events {
+    width: auto;
+    font-family: Rubik, sans-serif;
+    font-size: 2.9em;
+    font-weight: 700;
+    line-height: 1.07;
+    text-align: right;
+    color: #32ab90;
+    margin-bottom: 11%;
+}
+
+.personal {
+    width: auto;
+    font-family: Cabin, sans-serif;
+    font-size: 18px;
+    line-height: 1.56;
+    text-align: right;
+    color: #465969;
+    margin: 0;
+}
+
+.lets-get-started {
+    width: 50%;
+    height: auto;
+    padding: 3% 0 3% 0;
+    border-radius: 9px;
+    background-color: #32ab90;
+    text-align: right;
+    margin-left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 14%;
+    margin-bottom: 18%;
+}
+
+.lets-get-started a {
+    width: 100%;
+    height: auto;
+    font-family: Cabin, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.4;
+    text-align: center;
+    color: #ffffff;
+    margin: 0;
+    text-decoration: none;
+}
+
+.clever-second {
+    position: relative;
+}
+
+.two-people {
+    width: 100%;
+    height: auto;
+}
+
+/* Second Section - articles */
+
+.start {
+    width: 100%;
+    padding-bottom: 7%;
+    margin-top: -7%;
+    height: auto;
+    background-image: linear-gradient(163deg, #32ab90 5%, #70c22d 128%);
+}
+
+.articles {
+    display: flex;
+    padding: 10% 7% 5% 8%;
+    justify-content: space-evenly;
+}
+
+.right-events, .invite-people, .prepare-intel {
+    width: 30%;
+    flex-direction: row;
+}
+
+.invite-people {
+    margin-left: 5%;
+    margin-right: 4%;
+}
+
+.group-39, .group-23, .group-9 {
+    height: auto;
+    object-fit: contain;
+}
+
+h2 {
+    font-family: Rubik, sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.96;
+    color: #ffffff;
+}
+
+.events-p, .invite-p, .intel-p {
+    font-family: Cabin, sans-serif;
+    font-size: 18px;
+    line-height: 1.56;
+    color: #ffffff;
+}
+
+.second-lets-get-started {
+    width: 20%;
+    height: 30%;
+    border-radius: 9px;
+    border: solid 1px #ffffff;
+    margin: auto;
+    padding: 1%;
+    text-align: center;
+}
+
+.second-lets-get-started a {
+    font-family: Cabin, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.4;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Third Section - Main Features */
+
+.features {
+    height: auto;
+}
+
+.features-title {
+    width: 262px;
+    height: 49px;
+    font-family: Rubik, sans-serif;
+    font-size: 40px;
+    line-height: 1.23;
+    text-align: center;
+    color: #70c22d;
+    margin: 0 auto;
+    padding: 3% 0 7% 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.arrow {
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+}
+
+.fancy-arrow {
+    width: 10px;
+    height: 10px;
+    border-top: 3px solid #53b75c;
+    border-right: 3px solid #53b75c;
+    transform: rotate(45deg);
+    top: 5px;
+    left: 0;
+    position: absolute;
+    margin-bottom: 50px;
+}
+
+
+.list {
+    width: 34%;
+    height: auto;
+    font-family: Cabin, sans-serif;
+    font-size: 18px;
+    line-height: 1.22;
+    color: #465969;
+    display: flex;
+    flex-direction: column;
+    margin-right: 106px;
+    margin-left: 134px;
+}
+
+.row {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.row p {
+    padding-left: 40px;
+}
+
+.row.last {
+    margin-bottom: 0;
+}
+
+.elephant-image {
+    height: 270px;
+    max-width: 481px;
+    position: relative;
+    background-image: url("smallel.png");
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 70px;
+    border: 1px solid lightgray;
+}
+
+
+.elephant-image p {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 35px;
+    text-align: center;
+    margin: 0 auto;
+    text-shadow: 1px 1px black;
+    color: #DCDCDC;
+    padding: 10%;
+}
+
+/* Footer */
+
+.footer {
+    height: auto;
+    background: linear-gradient(0deg, #ebebeb 62%, #fff 50%);
+}
+
+
+.footer-image {
+    background-image: url("group-7-copy.png");
+    background-position: center;
+    background-size: cover;
+    max-width: 606px;
+    height: 440px;
+    margin-left: 70px;
+}
+
+
